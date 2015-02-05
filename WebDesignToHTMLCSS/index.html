@@ -16,12 +16,17 @@
     <link rel="stylesheet" type="text/css" href="css/text.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <style>
+        #main { background: red;overflow: hidden;}
+        #banner { background: green;clear: both; }
+        footer { background: blue;clear: both; }
+    </style>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 </head>
 <body>
 <header class="container_24">
     <h1>SITENAME</h1>
-    <nav>
+    <nav class="grid_17">
         <ul>
             <li>
                 <a href="#">HOME</a>
@@ -66,7 +71,7 @@
         </ul>
     </menu>
 
-    <form action="" method="get">
+    <form action="" method="get" class="grid_7">
         <p>
             Search: <input type="text" name="search" value="" id="search" placeholder="Search"/>
         </p>
@@ -86,7 +91,8 @@
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
         <button>Learn More</button>
         <button>Our Work</button>
-        <p id="breadcrumbs">Your'e here: <a href="#">Home</a> > <a href="#">Welcome</a></p>
+        <p id="breadcrumbs">Your'e here: <a href="#">Home</a> > <a href="#">Welcome</a>
+        </p>
     </div> <!--end banner-->
 </div> <!--end banner wrap-->
 
@@ -138,9 +144,15 @@
 
     <aside class="grid_8 prefix_1">
         <ul id="tabHeadings">
-            <li><a href="comments">Comments</a></li>
-            <li><a href="categories">Categories</a></li>
-            <li><a href="archives">Archives</a></li>
+            <li>
+                <a href="comments">Comments</a>
+            </li>
+            <li>
+                <a href="categories">Categories</a>
+            </li>
+            <li>
+                <a href="archives">Archives</a>
+            </li>
         </ul>
 
         <h4>Comments</h4>
@@ -260,10 +272,26 @@
         <section class="grid_8">
             <h3>Recent Projects</h3>
             <ul>
-                <li><a href=""><img src="img/recentProject1.jpg" alt="Recent Project"/></a></li>
-                <li><a href=""><img src="img/recentProject2.jpg" alt="Recent Project"/></a></li>
-                <li><a href=""><img src="img/recentProject3.jpg" alt="Recent Project"/></a></li>
-                <li><a href=""><img src="img/recentProject4.jpg" alt="Recent Project"/></a></li>
+                <li>
+                    <a href="">
+                        <img src="img/recentProject1.jpg" alt="Recent Project"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/recentProject2.jpg" alt="Recent Project"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/recentProject3.jpg" alt="Recent Project"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/recentProject4.jpg" alt="Recent Project"/>
+                    </a>
+                </li>
             </ul>
 
             <button>Portfolio</button>
@@ -290,27 +318,28 @@
 
 </div>
 
-    <div id="siteInfo" class="container_24">
-        <p>Copyright '10' -- WebsiteName -- All Rights Resereved </p>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">HOME</a>
-                </li>
-                <li>
-                    <a href="#">ABOUT</a>
-                </li>
-                <li>
-                    <a href="#">PORTFOLIO</a>
-                </li>
-                <li>
-                    <a href="#">BLOG</a>
-                </li>
-                <li>
-                    <a href="#">CONTACT</a>
-                </li>
-                </u
-    </div>
+<div id="siteInfo" class="container_24">
+    <p>Copyright '10' -- WebsiteName -- All Rights Resereved </p>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">HOME</a>
+            </li>
+            <li>
+                <a href="#">ABOUT</a>
+            </li>
+            <li>
+                <a href="#">PORTFOLIO</a>
+            </li>
+            <li>
+                <a href="#">BLOG</a>
+            </li>
+            <li>
+                <a href="#">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+</div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </body>
