@@ -1,0 +1,38 @@
+/*-------------------GENERAL--------------------------------*/
+
+body {
+    background: #f8eed9 url("../img/bg.jpg") repeat-x;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Verdana, helvetica, arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: myriad-pro, helvetica, arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h3 {
+    color: #3da2b4;
+    text-shadow: 0 -1px 0 #231914;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+li {
+    margin-left: 0;
+}
