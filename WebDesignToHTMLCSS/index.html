@@ -16,15 +16,20 @@
     <link rel="stylesheet" type="text/css" href="css/text.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
+    <style>
+        #main { background: red;overflow: hidden;}
+        #banner { background: green;clear: both; }
+        footer { background: blue;clear: both; }
+    </style>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 </head>
 <body>
-<header>
+<header class="container_24">
     <h1>SITENAME</h1>
-    <nav>
+    <nav class="grid_17">
         <ul>
             <li>
-                <a href="#">HOME</a>
+                <a href="#" class="selected">HOME</a>
             </li>
             <li>
                 <a href="#">ABOUT</a>
@@ -60,13 +65,13 @@
             </li>
             <li>
                 <a href="#">
-                    <img src="img/icons/flicker.png" alt="Flicker"/>
+                    <img src="img/icons/flickr.png" alt="Flicker"/>
                 </a>
             </li>
         </ul>
     </menu>
 
-    <form action="" method="get">
+    <form action="" method="get" class="grid_7">
         <p>
             Search: <input type="text" name="search" value="" id="search" placeholder="Search"/>
         </p>
@@ -76,7 +81,7 @@
 
 
 <div id="banner-wrap">
-    <div id="banner">
+    <div id="banner" class="container_24">
         <h2>Welcome to our site</h2>
         <div id="featured">
             <img src="img/featuredImg1.jpg" alt="Featured">
@@ -86,12 +91,13 @@
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
         <button>Learn More</button>
         <button>Our Work</button>
+        <p id="breadcrumbs">Your'e here: <a href="#">Home</a> > <a href="#">Welcome</a>
+        </p>
     </div> <!--end banner-->
-    <p id="breadcrumbs">Your'e here: <a href="#">Home</a> > <a href="#">Welcome</a></p>
 </div> <!--end banner wrap-->
 
-<div id="main">
-    <div id="primary">
+<div id="main" class="container_24">
+    <div id="primary" class="grid_15">
         <h3>FROM THE BLOG</h3>
         <article>
             <h2>
@@ -136,11 +142,17 @@
     </div>
 
 
-    <aside>
+    <aside class="grid_8 prefix_1">
         <ul id="tabHeadings">
-            <li><a href="comments">Comments</a></li>
-            <li><a href="categories">Categories</a></li>
-            <li><a href="archives">Archives</a></li>
+            <li>
+                <a href="comments">Comments</a>
+            </li>
+            <li>
+                <a href="categories">Categories</a>
+            </li>
+            <li>
+                <a href="archives">Archives</a>
+            </li>
         </ul>
 
         <h4>Comments</h4>
@@ -245,8 +257,8 @@
 </div>
 
 <div id="footer-wrap">
-    <footer>
-        <section>
+    <footer class="container_24">
+        <section class="grid_8">
             <h3>Get A Free Quote</h3>
             <form action="" method="post">
                 <input type="text" name="name" value="Your Name"/>
@@ -257,19 +269,35 @@
                 <button>Submit</button>
             </form>
         </section>
-        <section>
+        <section class="grid_8">
             <h3>Recent Projects</h3>
             <ul>
-                <li><a href=""><img src="img/recentProject1.jpg" alt="Recent Project"/></a></li>
-                <li><a href=""><img src="img/recentProject2.jpg" alt="Recent Project"/></a></li>
-                <li><a href=""><img src="img/recentProject3.jpg" alt="Recent Project"/></a></li>
-                <li><a href=""><img src="img/recentProject4.jpg" alt="Recent Project"/></a></li>
+                <li>
+                    <a href="">
+                        <img src="img/recentProject1.jpg" alt="Recent Project"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/recentProject2.jpg" alt="Recent Project"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/recentProject3.jpg" alt="Recent Project"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/recentProject4.jpg" alt="Recent Project"/>
+                    </a>
+                </li>
             </ul>
 
             <button>Portfolio</button>
 
         </section>
-        <section>
+        <section class="grid_8">
             <h3>Twitter Stream</h3>
             <ul>
                 <li>
@@ -290,27 +318,28 @@
 
 </div>
 
-    <div id="siteInfo">
-        <p>Copyright '10' -- WebsiteName -- All Rights Resereved </p>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">HOME</a>
-                </li>
-                <li>
-                    <a href="#">ABOUT</a>
-                </li>
-                <li>
-                    <a href="#">PORTFOLIO</a>
-                </li>
-                <li>
-                    <a href="#">BLOG</a>
-                </li>
-                <li>
-                    <a href="#">CONTACT</a>
-                </li>
-                </u
-    </div>
+<div id="siteInfo" class="container_24">
+    <p>Copyright '10' -- WebsiteName -- All Rights Resereved </p>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">HOME</a>
+            </li>
+            <li>
+                <a href="#">ABOUT</a>
+            </li>
+            <li>
+                <a href="#">PORTFOLIO</a>
+            </li>
+            <li>
+                <a href="#">BLOG</a>
+            </li>
+            <li>
+                <a href="#">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+</div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </body>
