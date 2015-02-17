@@ -246,3 +246,126 @@ header form {
                 color: white;
                 font-weight: bold;
             }
+
+/*-------------------MAIN SECTION--------------------------------*/
+
+#main {
+    padding-top: 50px;
+    background: #f8eedf;
+    background: -moz-linear-gradient(
+        left, 
+        #f8eedf 63.5%,
+        #fff7ea 63.6%,
+        #dfcdb2 63.6%,
+        #e8d8c0 63.7%,
+        #f8eedf
+     );
+
+	background: linear-gradient(
+		to right,
+		#f8eedf 63.5%,
+		#fff7ea 63.6%,
+		#dfcdb2 63.6%,
+		#e8d8c0	63.7%,
+		#f8eedf
+	);
+
+    background: -webkit-gradient(
+        linear,
+        left top, right top, 
+        from(#f8eedf),
+        color-stop(63.5%, #f8eedf),
+        color-stop(63.6%, #fff7ea),
+        color-stop(63.6%, #dfcdb2),
+        color-stop(63.7%, #e8d8c0),
+        to(#f8eedf)
+     );
+}
+
+
+    #main article {
+        padding-right: 50px;
+    }
+        #main article img {
+            margin: 0 0 10px;
+        }
+
+        article h2 {
+            margin-bottom: 0;
+            font-weight: normal;
+        }
+
+        article h2 a:hover {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        article h6 a, article h6 {
+            color: #d6a75d;
+            font-style: italic;
+        }
+
+/*-------------------SIDEBAR--------------------------------*/
+
+        #secondary section {
+            clear: both;
+            margin-bottom: 40px;
+        }
+
+            #secondary section img {
+                float: left;
+            }
+
+             /*-------------------TABS--------------------------------*/
+
+             .tabs {
+                 overflow: hidden;
+
+                 background: #257588;
+                 background: -webkit-gradient(linear, left top, left bottom,
+                                from(#257588), to(#3096a4));
+                 background: -moz-linear-gradient(top, #257588, #3096a4);
+                 background: linear-gradient(to bottom right, #257588, #3096a4);
+
+                 -moz-border-radius: 5px;
+                 -webkit-border-radius: 5px;
+                 padding-bottom: 10px;
+             }
+
+                 .tabs ul {
+                      padding: 20px 10px 0;
+                      margin-bottom: 0;
+                      border-top: 1px solid #248fa6;
+                  }
+
+             #tabHeadings {
+                 display: block;
+                 margin-bottom: 0;
+                 -webkit-border-top-right-radius: 5px;
+                 -webkit-border-top-left-radius: 5px;
+                 -moz-border-radius-topleft: 5px;
+                 -moz-border-radius-topright: 5px;
+                 overflow: hidden;
+                 border-bottom: 1px solid #134a56;
+                 background: #40312a;
+             }
+
+                #tabHeadings a {
+                    color: white;
+                }
+
+                #tabHeadings li {
+                    float: left;
+                    width: 83px;
+                    text-align: center;
+                    cursor: pointer;
+                    padding: 10px;
+                }
+
+                #tabHeadings li.selected, #tabHeadings li:hover {
+                    background: #257588;
+                    position: relative;
+                    top: 2px;
+                 }
+
+          

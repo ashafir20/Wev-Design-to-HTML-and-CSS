@@ -81,6 +81,7 @@
     <Content Include="img\featuredImage1.jpg" />
     <Content Include="img\featuredImage2.jpg" />
     <Content Include="img\footerSmallBg.jpg" />
+    <Content Include="img\graphicRiver.jpg" />
     <Content Include="img\icons\dribble.png" />
     <Content Include="img\icons\facebook.png" />
     <Content Include="img\icons\flickr.png" />
@@ -90,6 +91,7 @@
     <Content Include="img\recentProject3.jpg" />
     <Content Include="img\recentProject4.jpg" />
     <Content Include="img\searchIcon.png" />
+    <Content Include="img\themeforest.jpg" />
     <Content Include="img\whoWeAre.jpg" />
     <Content Include="index.html" />
     <Content Include="js\scripts.js" />
