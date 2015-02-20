@@ -300,6 +300,10 @@ header form {
             font-weight: bold;
         }
 
+        #main p a {
+            color: #247184;
+        }
+
         article h6 a, article h6 {
             color: #d6a75d;
             font-style: italic;
@@ -368,4 +372,74 @@ header form {
                     top: 2px;
                  }
 
-          
+                     /*-------------------COMMENTS--------------------------------*/
+
+                        #comments li:last-child {
+                            border-bottom: none;
+                        }
+
+                        #comments li:first-child {
+                            border-top: none;
+                            padding-top: 0;
+                        }
+
+                            #comments h6 {
+                                margin-bottom: 0;
+                                color: #ededed;
+                                font-weight: normal;
+                                font-size: 10px;
+                                margin-top: -13px;
+                            }
+
+                            h6 a {
+                                font-weight: bold;
+                            }
+
+                           .tabs > ul li {
+                                display: block;
+                                border-bottom: 1px solid #1d6b78;
+                                border-top: 1px solid #399cac;
+                                padding: 10px;
+                                color: white;
+                            }
+                           
+                                .tabs a {
+                                    color: white;
+                                }
+
+                                .tabs a:hover {
+                                    text-decoration: none;
+                                }
+
+                                .tabs li:hover {
+                                     background: #1d6b78;
+                                 }
+
+                                 .tabs > ul li:hover {
+                                     cursor: pointer;
+                                 }
+
+                                 .tabs > ul li:first-child {
+                                     border-top: none;
+                                 }
+
+                                 .tabs > ul li:last-child {
+                                     border-bottom: none;
+                                 }
+
+                                 #categories, #archives {
+                                     padding-left: 0;
+                                     padding-right: 0;
+                                 }
+
+                                  /*-------------------SPONSERS--------------------------------*/
+                                  #sponsers li:nth-child(even) {
+                                      float: right;
+                                  }
+                                  
+                                  #secondary img {
+                                      border: 5px solid #febf5d;
+                                      -moz-box-shadow: 0 0 0 1px #fdb84d;
+                                      -webkit-box-shadow: 0 0 0 1px #fdb84d;
+                                      box-shadow: 0 0 0 1px #fdb84d;
+                                  }
